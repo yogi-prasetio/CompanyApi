@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\IIS_Server\API</_PublishTargetUrl>
+    <History>True|2023-10-13T10:35:25.1478870Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DBConfig">
+      <Value>Server=RAS-YOGI%3b Database=BercaAPI%3b User Id=sa%3b Password=sapassword%3b TrustServerCertificate=True%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="BercaAPI.Context.MyContext">
+      <Value>Server=RAS-YOGI%3b Database=BercaAPI%3b User Id=sa%3b Password=sapassword%3b TrustServerCertificate=True%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
