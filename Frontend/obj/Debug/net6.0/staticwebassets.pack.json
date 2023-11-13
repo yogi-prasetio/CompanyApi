@@ -8405,6 +8405,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\yogi.prasetio\\source\\repos\\BercaAPI\\Frontend\\wwwroot\\js\\chart.js",
+      "PackagePath": "staticwebassets\\js\\chart.js"
+    },
+    {
       "Id": "C:\\Users\\yogi.prasetio\\source\\repos\\BercaAPI\\Frontend\\wwwroot\\js\\departments.js",
       "PackagePath": "staticwebassets\\js\\departments.js"
     },

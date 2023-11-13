@@ -257,7 +257,7 @@ namespace BercaAPI.Repository
         {
             var deptCount = context.Employees.Where(e => e.Status == true)
                 .GroupBy(e => e.department.Name)
-                .Select(g => new EmployeeCountVM
+                .Select(g => new
                 {
                     DepartmentName = g.Key,
                     EmployeesCount = g.Count(),

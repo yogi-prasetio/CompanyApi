@@ -223,3 +223,4 @@ C:\Users\yogi.prasetio\source\repos\BercaAPI\Frontend\obj\Debug\net6.0\refint\Fr
 C:\Users\yogi.prasetio\source\repos\BercaAPI\Frontend\obj\Debug\net6.0\Frontend.pdb
 C:\Users\yogi.prasetio\source\repos\BercaAPI\Frontend\obj\Debug\net6.0\Frontend.genruntimeconfig.cache
 C:\Users\yogi.prasetio\source\repos\BercaAPI\Frontend\obj\Debug\net6.0\ref\Frontend.dll
+C:\Users\yogi.prasetio\source\repos\BercaAPI\Frontend\bin\Debug\net6.0\System.Linq.Dynamic.Core.dll

@@ -85,3 +85,4 @@ C:\Users\yogi.prasetio\source\repos\BercaAPI\BercaAPI\obj\Debug\net6.0\refint\Be
 C:\Users\yogi.prasetio\source\repos\BercaAPI\BercaAPI\obj\Debug\net6.0\BercaAPI.pdb
 C:\Users\yogi.prasetio\source\repos\BercaAPI\BercaAPI\obj\Debug\net6.0\BercaAPI.genruntimeconfig.cache
 C:\Users\yogi.prasetio\source\repos\BercaAPI\BercaAPI\obj\Debug\net6.0\ref\BercaAPI.dll
+C:\Users\yogi.prasetio\source\repos\BercaAPI\BercaAPI\bin\Debug\net6.0\System.Linq.Dynamic.Core.dll

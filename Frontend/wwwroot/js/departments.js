@@ -2,22 +2,24 @@ $(document).ready(function () {
 
     var table = $('#tbl-department').DataTable({
         "paging": true,
+        "lengthMenu": [[5, 10, 25, 50, 100, -10],[5, 10, 25, 50, 100, 'Show All']],
         "lengthChange": true,
         "searching": true,
-        "info": false,
+        "info": true,
         "autoWidth": false,
         "responsive": true,
         "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
-
+        "processing": true,
+        "serverSide": true,
         "ajax": {
-            type: 'GET',
-            url: "https://localhost:7034/api/Department",
+            type: 'POST',
+            url: "https://localhost:7034/api/Department/Paging",
             dataType: 'json',
             dataSrc: 'data',
         },
         "columns": [
             { "data": null },
-            { "data": "name" },
+            { "data": "name", name: "Name" },
             { "data": null },
         ],
         columnDefs: [

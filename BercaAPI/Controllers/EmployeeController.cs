@@ -4,6 +4,7 @@ using BercaAPI.ViewModel;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
+using System.Data;
 using System.Net;
 
 namespace BercaAPI.Controllers
@@ -17,7 +18,7 @@ namespace BercaAPI.Controllers
         public EmployeeController(EmployeeRepository employeeRepository)
         {
             this.employeeRepository = employeeRepository;
-        }
+        }        
 
         [HttpGet]
         public ActionResult Get()

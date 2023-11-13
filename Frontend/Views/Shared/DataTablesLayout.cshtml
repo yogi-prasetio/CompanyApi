@@ -107,7 +107,7 @@
                         <!-- Add icons to the links using the .nav-icon class
                              with font-awesome or any other icon font library -->
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a asp-controller="Home" asp-action="Dashboard" id="dashboard" class="nav-link">
                                 <i class="nav-icon fas fa-tachometer-alt"></i>
                                 <p>
                                     Dashboard
@@ -192,6 +192,8 @@
         } else if (title == 'Resign Employees') {
             $('#employee_item').addClass('active');
             $('#resign_employee').addClass('active');
+        } else if (title == 'Dashboard') {
+            $('#dashboard').addClass('active');
         }
     });
 </script>
